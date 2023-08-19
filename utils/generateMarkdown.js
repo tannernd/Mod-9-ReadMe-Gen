@@ -107,7 +107,7 @@ ${data.install}
 
 ${data.usage}
 
-![${data.title}](${data.screenshot})
+![${data.title}](./${data.screenshot})
 
 ## Credits
 
