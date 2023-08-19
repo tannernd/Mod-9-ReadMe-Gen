@@ -11,7 +11,11 @@ Project has a dependency on the inquirer library and the user must run npm insta
 
 ## Usage
 
-Run node index.js from the installed folder. The following image shows the application's appearance and functionality:
+Run node index.js from the installed folder. 
+
+Sample usage video link: [Here](https://youtu.be/8Ar-iXqP_Ko)
+
+The following image shows the application's appearance and functionality:
 
 ![Generated README and terminal view.](./assets/Mod-9-ReadMe-Gen-Screen-Shot.png)
 
