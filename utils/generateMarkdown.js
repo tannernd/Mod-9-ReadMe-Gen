@@ -1,6 +1,29 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  let badge;
+  switch (license) {
+    case 'MIT':
+      badge = "https://img.shields.io/badge/license-MIT-green"
+      break;
+    case 'GNU':
+      badge = "https://img.shields.io/badge/license-GNU_GPLv3-green"
+      break;
+    case 'ISC':
+      badge = "https://img.shields.io/badge/license-ISC-green"
+      break;
+    case 'Apache':
+      badge = "https://img.shields.io/badge/license-Apache_2.0-green"
+      break;
+    default:
+      badge = "";
+  }
+  return badge;
+}
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {
   let url;
   switch (license) {
     case 'MIT':
@@ -20,10 +43,6 @@ function renderLicenseBadge(license) {
   }
   return url;
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
